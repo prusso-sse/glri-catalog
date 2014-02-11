@@ -1,0 +1,106 @@
+/* *****************************************************************************
+ * Project:		glri-catalog
+ * Source:		custom.css
+ * Author:		Philip Russo
+ **************************************************************************** */
+
+/* This css should be overwritten by the project using this template */
+
+.dashboard div {
+    -webkit-transition:	width 0.3s ease, margin 0.3s ease;
+    -moz-transition: 	width 0.3s ease, margin 0.3s ease;
+    -o-transition: 		width 0.3s ease, margin 0.3s ease;
+    transition: 		width 0.3s ease, margin 0.3s ease;
+}
+
+.dashboard a:visited {
+	color:			#258;	
+}
+
+.col-xs-0 {
+    	display:			none; 
+}
+
+.navigation_panel {
+	background: 		#2A4266;
+	border-color: 		#223552 !important;
+}
+
+.navigation_panel_heading {
+	background-color: 	#2A4266 !important;
+	border-color: 		#223552 !important;
+	color: 			#fff !important;
+	text-align: 		right;
+	font-size: 		18px;
+	padding-right: 	25px;
+}
+
+.navigation_panel_body {
+	
+}
+
+.navigation_panel_item {
+	width: 			100%;
+	text-align: 		right;
+	margin-left: 		0px !important;
+}
+
+.navigation_panel_item a {
+	color: 			#ddd !important;
+}
+
+.navigation_panel_item a:hover {
+	color: 			#eee !important;
+	background-color: 	#48638D !important;	
+}
+
+.navigation_toggle_a {
+	margin-right:		0px;
+}
+
+.navigation_toggle_b {
+	margin-right:		15px;
+}
+
+.map_container {
+	padding: 			15px;
+}
+
+#hucSelectMap {
+	border: 			1px solid #a3a3a3;
+}
+
+.huc_table tbody tr:hover {
+	background-color:	#C8D0DD !important;
+}
+
+.huc_table tbody tr:nth-child(odd):hover td {
+	background-color:	#C8D0DD !important;
+}
+
+.filter_label {
+	margin-top: 8px;
+}
+
+.boundingMap {
+	width: 512px;
+	height: 268px;
+	border: 1px solid #ccc;
+}
+
+.boundsGroup {
+	/*  		top	| right	| bottom	| left */
+	padding: 	6px		0px		0px		6px;
+	
+}
+
+.boundsValue {
+	font-size: 10px !important;
+	padding: 0px 3px 0px 5px !important;
+	text-align: left;
+}
+
+.adjustDropDown {
+	margin-top: 8px;
+	margin-left: 30px !important;
+}
